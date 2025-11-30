@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="VulkanTest/VulkanTest.fsproj" />
+  <Project Path="VulkanTestCSharp/VulkanTestCSharp.csproj" />
+</Solution>

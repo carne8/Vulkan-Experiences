@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Evergine.Vulkan" Version="2025.10.21.59" />
+      <PackageReference Include="FsToolkit.ErrorHandling" Version="5.1.0" />
+      <PackageReference Include="Silk.NET.GLFW" Version="2.22.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\VulkanTestCSharp\VulkanTestCSharp.csproj" />
+    </ItemGroup>
+
+</Project>
